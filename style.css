@@ -416,3 +416,25 @@ nav a:hover {
     color: white;
     line-height: 1.7;
 }
+#projects {
+    padding: 60px 8%;
+}
+
+#projects .project-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    min-height: 160px;
+    padding: 25px;
+    margin: 15px;
+    background: #101f35;
+    border: 1px solid #00d9ff;
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+#projects .project-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 8px 25px rgba(0, 217, 255, 0.2);
+}
