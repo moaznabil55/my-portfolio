@@ -309,32 +309,29 @@ nav a:hover {
     text-align: left;
 }
 
-.home-image {
-    flex-shrink: 0;
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.home-text {
+    flex: 1;
+    text-align: left;
 }
 
 .home-image img {
-    width: 130px;
-    height: 130px;
+    width: 90px !important;
+    height: 90px !important;
+    min-width: 90px;
+    max-width: 90px;
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid #00d9ff;
-    box-shadow: 0 0 12px rgba(0, 217, 255, 0.2);
-}
-
-@media (max-width: 768px) {
-    .home-content {
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-
-    .home-text {
-        text-align: center;
-    }
-
-    .home-image img {
-        width: 110px;
-        height: 110px;
-    }
+    display: block;
 }
 }
