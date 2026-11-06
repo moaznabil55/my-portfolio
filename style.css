@@ -368,3 +368,13 @@ nav a:hover {
     color: #000;
     transform: translateY(-5px);
 }
+    #skills .skill-card {
+    display: inline-block !important;
+    border: 2px solid #00d9ff !important;
+    border-radius: 12px !important;
+    padding: 15px 25px !important;
+    margin: 8px !important;
+    background: rgba(0, 217, 255, 0.15) !important;
+    color: white !important;
+    text-align: center !important;
+}
