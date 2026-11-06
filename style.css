@@ -378,3 +378,41 @@ nav a:hover {
     color: white !important;
     text-align: center !important;
 }
+#projects {
+    padding: 60px 8%;
+}
+
+#projects h2 {
+    color: #00d9ff;
+    margin-bottom: 30px;
+}
+
+.project-card {
+    background: rgba(0, 217, 255, 0.08);
+    border: 2px solid #00d9ff;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px;
+    width: 280px;
+    min-height: 150px;
+    display: inline-block;
+    vertical-align: top;
+    transition: 0.3s ease;
+    box-shadow: 0 5px 20px rgba(0, 217, 255, 0.1);
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    background: rgba(0, 217, 255, 0.16);
+    box-shadow: 0 10px 25px rgba(0, 217, 255, 0.25);
+}
+
+.project-card h3 {
+    color: #00d9ff;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: white;
+    line-height: 1.7;
+}
