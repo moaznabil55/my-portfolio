@@ -129,3 +129,33 @@ a:hover {
     background-color: white;
     transform: translateY(-3px);
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #101c30;
+    flex-wrap: wrap;
+}
+
+header h2 {
+    color: #00d9ff;
+    font-size: 26px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00d9ff;
+}
