@@ -187,4 +187,31 @@ nav a:hover {
         max-width: 100%;
         height: auto;
     }
+#projects {
+    text-align: center;
+}
+
+.project-card {
+    background: #101c30;
+    border: 1px solid #00d9ff;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 600px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 5px 20px rgba(0, 217, 255, 0.2);
+}
+
+.project-card h3 {
+    color: #00d9ff;
+    margin-bottom: 12px;
+}
+
+.project-card p {
+    color: white;
+    line-height: 1.7;
 }
