@@ -323,4 +323,24 @@ nav a:hover {
     flex: 1;
     text-align: left;
 }
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0;
+}
 
+#skills li {
+    list-style: none;
+    border: 2px solid #00d9ff;
+    border-radius: 12px;
+    padding: 12px 20px;
+    background: rgba(0, 217, 255, 0.08);
+    transition: 0.3s;
+}
+
+#skills li:hover {
+    background: #00d9ff;
+    color: #000;
+    transform: translateY(-4px);
+}
