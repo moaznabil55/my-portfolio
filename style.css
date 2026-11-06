@@ -113,3 +113,19 @@ a:hover {
         padding: 60px 7%;
     }
 }
+#backToTop {
+    background-color: #00d9ff;
+    color: #0b1120;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+#backToTop:hover {
+    background-color: white;
+    transform: translateY(-3px);
+}
