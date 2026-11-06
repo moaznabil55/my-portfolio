@@ -334,4 +334,21 @@ nav a:hover {
     border: 3px solid #00d9ff;
     display: block;
 
+   #home .home-image {
+    width: 90px !important;
+    height: 90px !important;
+    flex: 0 0 90px !important;
+    overflow: hidden !important;
+    border-radius: 50% !important;
+}
+
+#home .home-image img {
+    width: 90px !important;
+    height: 90px !important;
+    min-width: 90px !important;
+    max-width: 90px !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
+    display: block !important;
+} 
 }
